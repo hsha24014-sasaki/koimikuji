@@ -18,7 +18,7 @@ button.addEventListener("click",function(){
 
     if (resultText.includes("大吉")) {
         result.style.color = "red";
-    }else{
+    }else {
         result.style.color ="black"
     }
 
