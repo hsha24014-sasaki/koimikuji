@@ -8,6 +8,7 @@ const fortunes=[
 
 const button = document.getElementById("bo");
 const result = document.getElementById("ke");
+const advice = document.getElementByld("advice");
 
 button.addEventListener("click",function(){
 
@@ -18,7 +19,8 @@ button.addEventListener("click",function(){
 
     if (resultText.includes("大吉")) {
         result.style.color = "red";
-    }else {
+        advice.textContent = "今日は積極的に行動しよう";
+    } else {
         result.style.color ="black"
     }
 
