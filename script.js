@@ -21,7 +21,7 @@ button.addEventListener("click",function(){
         result.style.color = "red";
         advice.textContent = "今日は積極的に行動しよう";
     } else {
-        result.style.color ="black"
+        result.style.color ="black";
     }
 
 });
